@@ -18,6 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h1>Biki</h1>
           <CardList monsters={this.state.monsters} />
       </div>
     );
